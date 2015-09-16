@@ -1,6 +1,15 @@
 #include <iostream>
-int main (int argc, char *argv[])
+using namespace std;
+int main(int argc, char *argv[])
+
 {
-    std::cout << "hello" << std::endl;
-    return 0;
+  int mas[10];
+    for (int i = 0; i < 10; i++)
+         cout << mas[i] << endl;
+
+
+
+     return 0;
+
+
 }
